@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="43mm"
+        android:layout_height="12mm"
+        android:layout_marginLeft="9mm"
+        android:layout_marginTop="20mm"
+        android:padding="2mm"
+        android:drawablePadding="@dimen/activity_horizontal_margin"
+        android:fontFamily="serif"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold"
+        android:text="Sign in with Gmail"
+        android:drawableLeft="@drawable/gmail1"
+        android:id="@+id/button1" />
+
+    <Button
+        android:layout_width="43mm"
+        android:layout_height="12mm"
+        android:layout_marginLeft="9mm"
+        android:layout_marginTop="9mm"
+        android:padding="2mm"
+        android:drawablePadding="@dimen/activity_horizontal_margin"
+        android:fontFamily="serif"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold"
+        android:text="Sign in with Facebook"
+        android:drawableLeft="@drawable/facebook3"
+        android:id="@+id/button2" />
+
+
+</LinearLayout>
